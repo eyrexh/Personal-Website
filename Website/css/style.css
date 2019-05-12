@@ -1,0 +1,233 @@
+body {
+background:#fdfdfd;
+margin:0;
+}
+
+.container{
+    width:100%;
+    height:900px;
+    background: #fdfdfd;
+    margin:auto;
+}
+
+
+.menu{
+    width:100%;
+    height:50px;
+    background:#afa4a4;
+    padding:6px 0px 6px 0px;    
+}
+
+.menu a{
+    width:60px;
+    height:25px;
+    padding:5px 5px 5px 5px;
+    margin:0 10px 0 0;
+    background:#afa4a4; 
+    float:right;
+    color:#fdfdfd;
+    text-decoration: none;
+    text-align: center;
+    font-size:17px;
+    font-family:"calibri",Garamond,'Comic Sans MS';
+}
+
+.menu a:hover{
+    background:#d2ad13;
+    border-radius:20%; 
+}
+
+.header {
+    width:100%;
+    height:430px;
+    background:#afa4a4;
+    display:flex;
+}
+
+.link-title{
+    height:230px;
+    width:500px;
+    margin:0px 0 0px 300px;
+    padding:120px 0px 0px 0px;
+    color:#fdfdfd;
+    text-decoration: none;
+    text-align:center;
+    font-size:50px;
+    font-family:"calibri",Garamond,'Comic Sans MS';
+}
+
+.link-title:hover{
+    background:url(../images/images1.jpeg);
+    background-repeat: no-repeat;
+}
+
+aside{
+    float:right;
+    width:100px;
+    padding: 10px 6px 0 10px;
+}
+
+h1{   
+    margin:0px;
+    color:#777777;
+    font-size:24px;
+    font-family:"calibri",Garamond,'Comic Sans MS';
+    font-weight:normal
+}
+
+h2{
+    color:#444444;
+    font-size:22px;
+    margin:20px 0 5px 0;
+    font-family:"calibri",Garamond,'Comic Sans MS';
+    font-weight:normal
+}
+
+
+.main{
+    width:85%;
+    height:420px;
+    display:flex;
+    margin:10px 0 0 70px;
+    color:#444444;
+    font-family:"Georgia";
+    font-size: 14px;
+    line-height:18px;
+    border-bottom:1px #666666 solid;
+}
+
+.sub0{
+    width:33%;
+    height:420px;
+    margin:0 0 10px 0;
+    padding:0 30px 5px 30px;
+}
+
+
+
+footer {
+    width:85%;
+    padding:7px 0 40px 0;
+    margin:0 0 40px 70px;
+    background:#fdfdfd;
+    color:#777777;
+    font-family:"Georgia";
+    font-size: 12px;
+}
+
+.separator{
+    color:#666666;
+    font-size:12px;
+}
+
+.ins{
+    width:30px;
+}
+
+.ins img{
+    float:right;
+    width:22px;
+    height:20px;
+    border-radius:40%;
+    margin:0 10px 0 20px;
+    
+}
+
+/***********************About Page Styles *****************/
+
+#about-page #about-main{
+    width:85%;
+    height:750px;
+    margin:10px 0 0 70px;
+    border-bottom:1px #666666 solid;
+}
+
+#about-page #about-image img{
+    width:70%;
+    float:left;
+}
+
+
+#about-page #about-info{
+    width:25%;
+    float:right;
+    margin:220px 5px 5px 30px;
+}
+
+#about-page #about-info h2{
+    color:#777777;
+    font-size:16px;
+    font-family:"Georgia";
+    font-weight:normal;
+}
+
+#about-page .description{
+    clear:both;
+    color:#333333;
+    font-size:14px;
+    float:left;
+    font-family:"Georgia";
+    font-weight:normal
+}
+
+/****************************Contact Page style **************/
+
+#contact-page #contact-main{
+    width:85%;
+    height:750px;
+    margin:10px 0 0 70px;
+    color:#444444;
+    font-family:"Georgia";
+    font-size: 14px;
+    line-height:18px;
+    border-bottom:1px #666666 solid;
+}
+
+#contact-page #contact-image img{
+    width:51%;
+    float:left;
+}
+
+#contact-page #contact-info{
+    width:42%;
+    float:right;
+    margin:0px 0px 0px 10px;
+    padding: 10px 10px 10px 50px;
+}
+
+#contact-page #form{
+    float:right;
+    width: 42%;
+    padding: 10px 10px 10px 50px;
+    margin: 0 0 0 10px;
+}
+
+#contact-page #form input{
+    padding:0px 0px 0px 5px;
+    width: 200px;
+    border:none;
+    border-radius: 7px;
+    height: 20px;
+    background: #d4d4d4;
+}
+
+#contact-page #form #submit{
+    width: 150px;
+    margin:0 0 0 25px;
+    background:#afa4a4;
+}
+
+#contact-page #form #message{
+    padding:2px 0px 0px 5px;
+    width: 200px;
+    border:none;
+    border-radius: 7px;
+    height: 130px;
+    background: #d4d4d4;
+    
+}
+
+#contact-page #form p{
+    margin:10px 0 10px 0;
+}
+
